@@ -68,6 +68,7 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
 
     @media screen and (min-width: 90em) {
       width: 45.7rem;
+      margin-bottom: 22.6rem;
     }
     .hero__heading {
       font-size: var(--fs-heading-l);
