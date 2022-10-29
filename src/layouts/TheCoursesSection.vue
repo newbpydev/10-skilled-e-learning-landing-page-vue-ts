@@ -14,6 +14,7 @@
 <style scoped>
 .courses-section {
   display: grid;
-  grid
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.6rem;
 }
 </style>

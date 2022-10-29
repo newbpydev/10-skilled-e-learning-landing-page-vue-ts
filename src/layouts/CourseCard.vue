@@ -50,6 +50,7 @@ defineProps<Props>();
   border-radius: var(--border-radius-mobile-tablet);
   position: relative;
   padding: 5.6rem 2.8rem 3.2rem;
+  margin-top: 2.4rem;
 
   &__icon {
     &-img {
@@ -71,12 +72,17 @@ defineProps<Props>();
     line-height: 2.6rem;
     margin-bottom: 2.4rem;
   }
+
+  &:last-child {
+    margin-bottom: 8rem;
+  }
 }
 
 /* title card */
 .course-card-alt {
   &__title {
     font-size: var(--fs-heading-s);
+    font-weight: var(--fw-x-bold);
     color: var(--white-pure);
     border-radius: var(--border-radius-mobile-tablet);
     padding: 2.8rem;
