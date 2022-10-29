@@ -53,6 +53,10 @@ button {
     padding: 0;
     height: 2.8rem;
     letter-spacing: 0.1rem;
+
+    @media screen and (min-width: 48em) {
+      font-size: 1.8rem;
+    }
   }
 }
 </style>

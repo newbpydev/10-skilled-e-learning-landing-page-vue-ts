@@ -21,6 +21,10 @@ footer {
   padding: 3.6rem 1.6rem;
   background: var(--blue-very-dark);
 
+  @media screen and (min-width: 48em) {
+    padding: 3.6rem 3.95rem;
+  }
+
   img {
     width: 8.9rem;
   }

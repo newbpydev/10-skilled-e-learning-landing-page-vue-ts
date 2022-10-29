@@ -52,6 +52,10 @@ defineProps<Props>();
   padding: 5.6rem 2.8rem 3.2rem;
   margin-top: 2.4rem;
 
+  @media screen and (min-width: 48em) {
+    padding: 5.6rem 2.2rem 3.2rem 3.2rem;
+  }
+
   &__icon {
     &-img {
       position: absolute;
@@ -72,14 +76,12 @@ defineProps<Props>();
     line-height: 2.6rem;
     margin-bottom: 2.4rem;
   }
-
-  &:last-child {
-    margin-bottom: 8rem;
-  }
 }
 
 /* title card */
 .course-card-alt {
+  margin-top: 2.4rem;
+
   &__title {
     font-size: var(--fs-heading-s);
     font-weight: var(--fw-x-bold);
@@ -92,6 +94,11 @@ defineProps<Props>();
       var(--grad-orange) 0%,
       var(--grad-pink) 100%
     );
+
+    @media screen and (min-width: 48em) {
+      padding: 5.6rem 3.2rem 13.9rem;
+      height: 100%;
+    }
   }
 }
 </style>
