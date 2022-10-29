@@ -10,7 +10,7 @@ import ButtonComponent from "./UI/ButtonComponent.vue";
 <template>
   <header>
     <img :src="logo" alt="" />
-    <ButtonComponent type="dark">Get Started</ButtonComponent>
+    <ButtonComponent variant="dark">Get Started</ButtonComponent>
   </header>
 </template>
 

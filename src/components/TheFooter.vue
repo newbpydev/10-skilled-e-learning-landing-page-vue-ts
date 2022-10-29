@@ -8,7 +8,7 @@ import ButtonComponent from "./UI/ButtonComponent.vue";
 <template>
   <footer>
     <img :src="logoLight" alt="" />
-    <ButtonComponent type="gradient-purple">Get Started</ButtonComponent>
+    <ButtonComponent variant="gradient-purple">Get Started</ButtonComponent>
   </footer>
 </template>
 

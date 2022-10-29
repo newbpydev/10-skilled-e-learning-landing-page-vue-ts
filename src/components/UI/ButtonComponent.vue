@@ -1,13 +1,13 @@
 <!-- * SCRIPT -->
 <script setup lang="ts">
 defineProps<{
-  type: "dark" | "gradient-orange" | "gradient-purple";
+  variant: "dark" | "gradient-orange" | "gradient-purple" | "ghost";
 }>();
 </script>
 
 <!-- * TEMPLATE -->
 <template>
-  <button :class="type">
+  <button :class="variant">
     <slot />
   </button>
 </template>
@@ -45,6 +45,12 @@ button {
       var(--grad-purple) 0,
       var(--grad-pink) 100%
     );
+  }
+
+  &.ghost {
+    color: var(--pink-dark);
+    padding: 0;
+    height: 2.8rem;
   }
 }
 </style>

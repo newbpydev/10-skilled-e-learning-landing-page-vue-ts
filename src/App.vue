@@ -3,12 +3,33 @@
 import DefaultLayout from "@/layouts/DefaultLayout.vue";
 import TheHeroSection from "./components/TheHeroSection.vue";
 import ButtonComponent from "./components/UI/ButtonComponent.vue";
+
+// Icons
+import animation from "@/assets/images/icon-animation.svg";
+import business from "@/assets/images/icon-business.svg";
+import crypto from "@/assets/images/icon-crypto.svg";
+import design from "@/assets/images/icon-design.svg";
+import photography from "@/assets/images/icon-photography.svg";
+import CourseCard from "./layouts/CourseCard.vue";
 </script>
 
 <!-- * TEMPLATE -->
 <template>
   <DefaultLayout>
     <TheHeroSection />
+
+    <CourseCard :icon-src="animation">
+      <template #heading>Animation</template>
+      <template #text>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia dolorum
+        excepturi exercitationem?</template
+      >
+      <template #button-text>Get Started</template>
+    </CourseCard>
+
+    <CourseCard>
+      <template #title>A different card</template>
+    </CourseCard>
     Check out our most popular courses! Animation Learn the latest animation
     techniques to create stunning motion design and captivate your audience. Get
     Started Design Create beautiful, usable interfaces to help shape the future
