@@ -40,33 +40,34 @@
 
 
   /* * Typography */
+  /* @ font-weight */
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-x-bold: 800;
+
   /* @ body-s  */
   --fs-body-s: 1.6rem;
-  --fw-body-s: 700;
+  --fw-bold: 700;
 
   /* @ body-m  */
   --fs-body-m: 1.8rem;
-  --fw-body-m: 500;
 
   /* @ heading-s  */
   --fs-heading-s: 2.4rem;
-  --fw-heading-s: 800;
 
   /* @ heading-m  */
   --fs-heading-m: 3.2rem;
-  --fw-heading-m: 800;
 
   /* @ heading-l  */
   --fs-heading-l: 4rem;
-  --fw-heading-l: 800;
 
   /* @ heading-xl  */
   --fs-heading-xl: 5.6rem;
-  --fw-heading-xl: 800;
 
   /* * general font size and family */
-  --font-size: var(--fs-body-m);
+  --font-size: var(--fs-body-s);
   --font-family: 'Plus Jakarta Sans';
+  --line-height: 2.8;
 
   --border-radius-mobile-tablet: 1rem;
   --border-radius-desktop: 1.5rem;
@@ -80,13 +81,13 @@ html {
 body {
   font-family: var(--font-family);
   font-size: var(--font-size);
-  font-weight: var(--fw-body-m);
+  font-weight: var(--fw-medium);
   color: var(--neut-grey-light);
+  /* line-height: var(--line-height); */
+  /* padding: 1.6rem; */
 
   display: flex;
-  /* place-items: center;
-  place-content: center; */
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   min-height: 100vh;
   min-width: 100vw;
@@ -94,4 +95,9 @@ body {
 
   /* overflow: hidden; */
   background: linear-gradient(180deg, var(--white-pure) 0%, #f0f1ff 100%);
+}
+
+#app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }

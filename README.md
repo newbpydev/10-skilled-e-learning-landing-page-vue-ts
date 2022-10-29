@@ -31,7 +31,7 @@ you note with the selected rating our of 5 and a thank you message.
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/newbpydev/08-interactive-rating-component)
+- Solution URL: [GitHub](https://github.com/newbpydev/10-skilled-e-learning-landing-page-vue-ts)
 - Live Site URL: [Live Site](https://earnest-fox-cf8611.netlify.app/)
 
 ## My process
@@ -46,7 +46,6 @@ you note with the selected rating our of 5 and a thank you message.
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
-
 
 ### What I learned
 
