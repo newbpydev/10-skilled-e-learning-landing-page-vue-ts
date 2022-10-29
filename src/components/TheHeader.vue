@@ -27,5 +27,9 @@ header {
     width: 8.9rem;
     height: auto;
   }
+
+  @media screen and (min-width: 48em) {
+    padding: 2.4rem 3.95rem 0;
+  }
 }
 </style>

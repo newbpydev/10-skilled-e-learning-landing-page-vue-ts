@@ -103,11 +103,24 @@ body {
   min-width: 100vw;
   position: relative;
 
-  /* overflow: hidden; */
   background: linear-gradient(180deg, var(--white-pure) 0%, #f0f1ff 100%);
+
 }
 
 #app {
   display: grid;
   grid-template-rows: auto 1fr auto;
+
+  @media screen and (min-width: 76.8rem) {
+    width: 76.8rem;
+    overflow-x: hidden;
+  }
+}
+
+.container {
+  padding: 0 1.6rem;
+
+  @media screen and (min-width: 48em) {
+    padding: 0 3.95rem;
+  }
 }

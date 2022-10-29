@@ -22,6 +22,7 @@ button {
   font-size: var(--fs-body-s);
   font-weight: var(--fw-bold);
   cursor: pointer;
+  z-index: 5;
 
   &.dark {
     background: var(--blue-very-dark);

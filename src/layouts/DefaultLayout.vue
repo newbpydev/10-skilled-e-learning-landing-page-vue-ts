@@ -18,8 +18,4 @@ import TheHeader from "@/components/TheHeader.vue";
 </template>
 
 <!-- * STYLE -->
-<style scoped>
-main {
-  padding: 0 1.6rem;
-}
-</style>
+<style scoped lang="scss"></style>

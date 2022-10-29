@@ -19,8 +19,12 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
     <div class="hero__cta-img-container" role="img">
       <picture>
         <source
-          media="(min-width: 40rem)"
-          srcset="@/assets/images/image-hero-mobile.png"
+          media="(min-width: 48em)"
+          srcset="@/assets/images/image-hero-tablet.webp"
+        />
+        <source
+          media="(min-width: 23.43em)"
+          srcset="@/assets/images/image-hero-mobile.webp"
         />
         <img
           :src="heroImage"
@@ -37,14 +41,24 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
   display: flex;
   flex-direction: column;
   margin-bottom: 1.6rem;
+  margin: 0 1.6rem;
+
+  @media screen and (min-width: 48em) {
+    flex-direction: row;
+    margin: 0 0 0 3.96rem;
+  }
 
   .hero__cta {
     margin-bottom: 7.1rem;
+
+    @media screen and (min-width: 48em) {
+      min-width: 39.8rem;
+    }
     .hero__heading {
       font-size: var(--fs-heading-l);
       font-weight: var(--fw-x-bold);
       line-height: 5rem;
-      margin-bottom: 2.6rem;
+      margin-bottom: 2.5rem;
     }
 
     .hero__message {
@@ -52,15 +66,27 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
       color: var(--blue-greyish);
       width: 100%;
       margin-bottom: 2.4rem;
+
+      @media screen and (min-width: 48em) {
+        width: 39.8rem;
+      }
     }
   }
 
   .hero__cta-img-container {
     min-width: 32.7rem;
-    overflow: hidden;
+    /* overflow: hidden; */
+
+    @media screen and (min-width: 48em) {
+      overflow-x: clip;
+    }
 
     & img {
       transform: scale(1.27);
+      @media screen and (min-width: 48em) {
+        transform: scale(1.5) translate(3rem, -2rem);
+        z-index: -1;
+      }
     }
   }
 }

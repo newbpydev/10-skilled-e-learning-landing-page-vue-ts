@@ -5,7 +5,7 @@
 
 <!-- * TEMPLATE -->
 <template>
-  <section class="courses-section">
+  <section class="courses-section container">
     <slot />
   </section>
 </template>
