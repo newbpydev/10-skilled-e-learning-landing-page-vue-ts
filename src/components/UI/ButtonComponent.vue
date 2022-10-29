@@ -26,6 +26,11 @@ button {
 
   &.dark {
     background: var(--blue-very-dark);
+
+    @media screen and (min-width: 90em) {
+      height: 5.6rem;
+      padding: 1.4rem 3.2rem;
+    }
   }
 
   &.gradient-orange {

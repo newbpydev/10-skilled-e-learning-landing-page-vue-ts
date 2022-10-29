@@ -115,6 +115,10 @@ body {
     width: 76.8rem;
     overflow-x: hidden;
   }
+
+  @media screen and (min-width: 90em) {
+    width: 1440rem;
+  }
 }
 
 .container {
@@ -122,5 +126,9 @@ body {
 
   @media screen and (min-width: 48em) {
     padding: 0 3.95rem;
+  }
+
+  @media screen and (min-width: 90em) {
+    padding: 0 16.5rem;
   }
 }

@@ -27,9 +27,19 @@ header {
     padding: 2.4rem 3.95rem 0;
     margin-bottom: 9.9rem;
   }
+
+  @media screen and (min-width: 90em) {
+    margin-bottom: 17.2rem;
+    padding: 3.875rem 16.5rem;
+  }
+
   img {
     width: 8.9rem;
     height: auto;
+
+    @media screen and (min-width: 90em) {
+      width: 11.117rem;
+    }
   }
 }
 </style>
