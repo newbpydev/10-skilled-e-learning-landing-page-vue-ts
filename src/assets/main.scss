@@ -1,5 +1,5 @@
 /* *Reset CSS */
-@import './base.css';
+@import './base.scss';
 
 /* * Style Notes  */
 /*
@@ -72,6 +72,16 @@
   --border-radius-mobile-tablet: 1rem;
   --border-radius-desktop: 1.5rem;
 }
+
+// media 1440px = 90em
+$media-desktop: "only screen and (min-width : 90em)";
+// media 768px = 48em
+$media-tablet: "only screen and (min-width : 48em)";
+
+
+// @media #{$media-desktop} {
+//   background: red;
+// }
 
 /* * General Styles  */
 html {
