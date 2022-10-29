@@ -51,6 +51,7 @@ button {
     color: var(--pink-dark);
     padding: 0;
     height: 2.8rem;
+    letter-spacing: 0.1rem;
   }
 }
 </style>

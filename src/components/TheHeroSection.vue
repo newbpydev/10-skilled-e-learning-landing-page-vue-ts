@@ -36,9 +36,10 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
 .hero {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1.6rem;
 
   .hero__cta {
-    margin-bottom: 8rem;
+    margin-bottom: 7.1rem;
     .hero__heading {
       font-size: var(--fs-heading-l);
       font-weight: var(--fw-x-bold);
@@ -59,27 +60,8 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
     overflow: hidden;
 
     & img {
-      transform: scale(1.2);
+      transform: scale(1.27);
     }
   }
-
-  /*.hero__cta-img {
-    margin: 0 auto;
-    overflow: hidden;
-
-    background-image: url("@/assets/images/image-hero-mobile.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: scale(1.3);
-    width: 32.7rem;
-    height: 30.1rem;
-
-    /*& > img {
-    width: 32.7rem;
-      width: 100%;
-      transform: scale(1.28);
-      clip-path: polygon(15% 0, 85% 0, 85% 85%, 15% 85%);
-    }
-  } */
 }
 </style>
