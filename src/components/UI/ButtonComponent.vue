@@ -41,6 +41,12 @@ button {
       var(--grad-orange) 0%,
       var(--grad-pink) 100%
     );
+
+    @media screen and (min-width: 90em) {
+      height: 6.3rem;
+      padding: 2rem 3.2rem;
+      border-radius: 3.15rem;
+    }
   }
 
   &.gradient-purple {
@@ -51,6 +57,12 @@ button {
       var(--grad-purple) 0,
       var(--grad-pink) 100%
     );
+
+    @media screen and (min-width: 90em) {
+      height: 5.6rem;
+      padding: 1.4rem 3.2rem;
+      font-size: 1.8rem;
+    }
   }
 
   &.ghost {
