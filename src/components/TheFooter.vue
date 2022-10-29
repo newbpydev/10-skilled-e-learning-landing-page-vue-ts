@@ -25,8 +25,16 @@ footer {
     padding: 3.6rem 3.95rem;
   }
 
+  @media screen and (min-width: 90em) {
+    padding: 3.2rem 16.5rem;
+  }
+
   img {
     width: 8.9rem;
+
+    @media screen and (min-width: 90em) {
+      width: 11.17rem;
+    }
   }
 }
 </style>
