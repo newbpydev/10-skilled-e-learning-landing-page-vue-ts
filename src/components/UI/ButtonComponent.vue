@@ -56,6 +56,7 @@ button {
 
     @media screen and (min-width: 48em) {
       font-size: 1.8rem;
+      letter-spacing: 0;
     }
   }
 }

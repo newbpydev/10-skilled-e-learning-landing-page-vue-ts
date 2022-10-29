@@ -21,6 +21,7 @@
   @media screen and (min-width: 48em) {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    row-gap: 3.2rem;
     margin-bottom: 8.6rem;
   }
 }

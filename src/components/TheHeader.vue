@@ -23,13 +23,13 @@ header {
   padding: 1.6rem 1.6rem 0;
   margin-bottom: 3.8rem;
 
+  @media screen and (min-width: 48em) {
+    padding: 2.4rem 3.95rem 0;
+    margin-bottom: 9.9rem;
+  }
   img {
     width: 8.9rem;
     height: auto;
-  }
-
-  @media screen and (min-width: 48em) {
-    padding: 2.4rem 3.95rem 0;
   }
 }
 </style>
