@@ -2,7 +2,6 @@
 <script setup lang="ts">
 import DefaultLayout from "@/layouts/DefaultLayout.vue";
 import TheHeroSection from "./components/TheHeroSection.vue";
-import ButtonComponent from "./components/UI/ButtonComponent.vue";
 
 // Icons
 import animation from "@/assets/images/icon-animation.svg";

@@ -19,20 +19,23 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 
 ## Overview
 
-This is my solution to the Interactive Rating Component challenge. It is an
-interactive rating component that will receive input from the user, the user
-must select a value from 1 to 5 and submit the form. The user receives a thank
-you note with the selected rating our of 5 and a thank you message.
+This is my solution to the Skilled E-Learning Landing Page. This is a one page
+site that is fully responsive with three breakpoints with a mobile first
+approach, tablet second and lastly for large screens such as desktops. For this
+project I used the Vue framework with Typescript and SCSS for styling. I tried
+to experiment with components and using layouts with vue slots and templates to
+modulize the landing page for easy debugging.
 
 ### Screenshot
 
 ![](./src//assets//images//screenshot-desktop.png)
+![](./src//assets//images/screenshot-tablet.png)
 ![](./src//assets//images/screenshot-mobile.png)
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/newbpydev/10-skilled-e-learning-landing-page-vue-ts)
-- Live Site URL: [Live Site](https://earnest-fox-cf8611.netlify.app/)
+- Live Site URL: [Live Site](https://admirable-cupcake-53b019.netlify.app/)
 
 ## My process
 
