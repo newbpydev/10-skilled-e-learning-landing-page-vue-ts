@@ -93,12 +93,7 @@ body {
   font-size: var(--font-size);
   font-weight: var(--fw-medium);
   color: var(--neut-grey-light);
-  /* line-height: var(--line-height); */
-  /* padding: 1.6rem; */
 
-  // display: flex;
-  /* align-items: center; */
-  // justify-content: center;
   min-height: 100vh;
   min-width: 100vw;
   position: relative;
@@ -111,16 +106,6 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   overflow: hidden;
-
-  @media screen and (min-width: 76.8rem) {
-    // width: 76.8rem;
-    // overflow-x: hidden;
-  }
-
-  @media screen and (min-width: 90em) {
-    // width: 144rem;
-    // overflow-x: hidden;
-  }
 }
 
 .container {
