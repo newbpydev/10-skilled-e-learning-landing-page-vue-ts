@@ -19,7 +19,7 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
     <div class="hero__cta-img-container">
       <picture>
         <source
-          media="(min-width: 90em)"
+          media="(min-width: 89em)"
           srcset="@/assets/images/image-hero-desktop.webp"
         />
         <source
