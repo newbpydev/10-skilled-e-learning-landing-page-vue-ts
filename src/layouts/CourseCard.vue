@@ -29,9 +29,11 @@ defineProps<Props>();
     </p>
 
     <!-- # button -->
-    <ButtonComponent variant="ghost">
-      <slot name="button-text" />
-    </ButtonComponent>
+    <div class="course-card__button">
+      <ButtonComponent variant="ghost">
+        <slot name="button-text" />
+      </ButtonComponent>
+    </div>
   </article>
 
   <!-- @ else -->
@@ -51,9 +53,16 @@ defineProps<Props>();
   position: relative;
   padding: 5.6rem 2.8rem 3.2rem;
   margin-top: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   @media screen and (min-width: 48em) {
     padding: 5.6rem 2.2rem 3.2rem 3.2rem;
+  }
+
+  @media screen and (min-width: 90em) {
+    padding: 6.4rem 3.2rem 4rem;
   }
 
   &__icon {
@@ -69,12 +78,26 @@ defineProps<Props>();
     font-size: 2rem;
     font-weight: var(--fw-x-bold);
     margin-bottom: 1.6rem;
+
+    @media screen and (min-width: 90em) {
+      font-size: 2.4rem;
+      margin-bottom: 2.4rem;
+    }
   }
 
   &__text {
     color: var(--blue-greyish);
     line-height: 2.6rem;
     margin-bottom: 2.4rem;
+    flex-grow: 1;
+
+    @media screen and (min-width: 90em) {
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+  }
+
+  &__button {
   }
 }
 
@@ -98,6 +121,12 @@ defineProps<Props>();
     @media screen and (min-width: 48em) {
       padding: 5.6rem 3.2rem 13.9rem;
       height: 100%;
+    }
+
+    @media screen and (min-width: 90em) {
+      font-size: var(--fs-heading-m);
+      line-height: 4rem;
+      padding: 6.4rem 3.2rem 13.8rem;
     }
   }
 }

@@ -26,7 +26,7 @@
   }
 
   @media screen and (min-width: 90em) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 35rem);
     gap: 3rem;
     row-gap: 5.6rem;
     margin-bottom: 14rem;
