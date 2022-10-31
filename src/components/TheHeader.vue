@@ -30,7 +30,7 @@ header {
 
   @media screen and (min-width: 90em) {
     margin-bottom: 17.2rem;
-    padding: 3.875rem 16.5rem;
+    padding: 2.4rem 16.5rem;
   }
 
   img {

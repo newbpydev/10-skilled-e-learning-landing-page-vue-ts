@@ -27,8 +27,14 @@ button {
   &.dark {
     background: var(--blue-very-dark);
 
+    /*@media screen and (min-width: 48em) {
+      font-size: 1.8rem;
+      padding: 1.4rem 3.2rem;
+    } */
+
     @media screen and (min-width: 90em) {
       height: 5.6rem;
+      font-size: 1.8rem;
       padding: 1.4rem 3.2rem;
     }
   }

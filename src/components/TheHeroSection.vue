@@ -116,7 +116,14 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
       top: -52rem;
       left: 52rem;
       width: 99.163rem;
-      height: 93.692rem;
+      /* height: 93.692rem; */
+      height: auto;
+
+      @media screen and (min-width: 48em) {
+        top: -26.6rem;
+        left: 33rem;
+        width: 69.863rem;
+      }
 
       @media screen and (min-width: 90em) {
         width: 100rem;
