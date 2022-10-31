@@ -29,7 +29,7 @@ header {
   }
 
   @media screen and (min-width: 90em) {
-    margin-bottom: 17.2rem;
+    margin-bottom: 14.8rem;
     padding: 2.4rem 16.5rem;
   }
 
