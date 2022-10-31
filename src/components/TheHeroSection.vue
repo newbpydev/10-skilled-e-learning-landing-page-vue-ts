@@ -113,6 +113,7 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
     }
 
     & img {
+      max-width: none;
       position: absolute;
       display: block;
       top: 31rem;
@@ -134,19 +135,6 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
         width: 104.1rem;
         transform: translate(10rem, 2rem);
       }
-
-      /*
-      transform: scale(1.27);
-      @media screen and (min-width: 48em) {
-        transform: scale(2.1) translate(5.5rem, -3.6rem);
-        z-index: -1;
-      }
-
-      @media screen and (min-width: 90em) {
-        width: 200rem;
-        transform: translate(30rem, -40rem);
-      }
-      */
     }
   }
 }
