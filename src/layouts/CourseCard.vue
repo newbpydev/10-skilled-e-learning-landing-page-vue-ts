@@ -110,8 +110,8 @@ defineProps<Props>();
     font-weight: var(--fw-x-bold);
     color: var(--white-pure);
     border-radius: var(--border-radius-mobile-tablet);
-    padding: 2.8rem;
-    line-height: 3.2rem;
+    padding: 2.8rem 2.8rem 3rem;
+    line-height: 3rem;
     background: linear-gradient(
       180deg,
       var(--grad-orange) 0%,
@@ -120,6 +120,7 @@ defineProps<Props>();
 
     @media screen and (min-width: 48em) {
       padding: 5.6rem 3.2rem 13.9rem;
+      line-height: 3.2rem;
       height: 100%;
     }
 

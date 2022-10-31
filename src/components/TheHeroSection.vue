@@ -63,7 +63,7 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
     @media screen and (min-width: 48em) {
       width: 50%;
       min-width: 39.8rem;
-      margin-bottom: 18.6rem;
+      margin-bottom: 18.3rem;
     }
 
     @media screen and (min-width: 90em) {
