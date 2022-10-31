@@ -30,6 +30,11 @@ button {
 
   &.dark {
     background: var(--blue-very-dark);
+    transition: all 0.3s ease-out;
+
+    &:hover {
+      background: var(--blue-light);
+    }
 
     /*@media screen and (min-width: 48em) {
       font-size: 1.8rem;
@@ -51,6 +56,16 @@ button {
       var(--grad-orange) 0%,
       var(--grad-pink) 100%
     );
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0.5),
+          rgba(255, 255, 255, 0.5)
+        ),
+        linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    }
 
     @media screen and (min-width: 90em) {
       height: 6.3rem;
@@ -67,6 +82,16 @@ button {
       var(--grad-purple) 0,
       var(--grad-pink) 100%
     );
+    transition: all 0.3s ease-out;
+
+    &:hover {
+      background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0.5),
+          rgba(255, 255, 255, 0.5)
+        ),
+        linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    }
 
     @media screen and (min-width: 90em) {
       height: 5.6rem;
@@ -80,6 +105,11 @@ button {
     padding: 0;
     height: 2.8rem;
     letter-spacing: 0.1rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #ffa7c3;
+    }
 
     @media screen and (min-width: 48em) {
       font-size: 1.8rem;
