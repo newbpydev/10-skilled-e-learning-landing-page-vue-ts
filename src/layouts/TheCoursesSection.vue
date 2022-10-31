@@ -24,5 +24,12 @@
     row-gap: 3.2rem;
     margin-bottom: 8.6rem;
   }
+
+  @media screen and (min-width: 90em) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    row-gap: 5.6rem;
+    margin-bottom: 14rem;
+  }
 }
 </style>
