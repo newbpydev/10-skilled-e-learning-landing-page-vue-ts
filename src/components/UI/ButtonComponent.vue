@@ -24,6 +24,10 @@ button {
   cursor: pointer;
   z-index: 5;
 
+  @media screen and (min-width: 90em) {
+    font-size: 1.8rem;
+  }
+
   &.dark {
     background: var(--blue-very-dark);
 

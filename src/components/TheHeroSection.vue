@@ -58,10 +58,10 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
   }
 
   .hero__cta {
-    margin-bottom: 7.1rem;
-    width: 50%;
+    margin-bottom: 38.8rem;
 
     @media screen and (min-width: 48em) {
+      width: 50%;
       min-width: 39.8rem;
       margin-bottom: 18.6rem;
     }
@@ -74,7 +74,7 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
       font-size: var(--fs-heading-l);
       font-weight: var(--fw-x-bold);
       line-height: 5rem;
-      margin-bottom: 2.5rem;
+      margin-bottom: 2.8rem;
 
       @media screen and (min-width: 90em) {
         font-size: var(--fs-heading-xl);
@@ -94,6 +94,7 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
       }
 
       @media screen and (min-width: 90em) {
+        margin-bottom: 4rem;
         font-size: 1.8rem;
         width: 44.5rem;
         line-height: 2.8rem;
@@ -113,9 +114,10 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
 
     & img {
       position: absolute;
-      top: -52rem;
-      left: 52rem;
-      width: 99.163rem;
+      display: block;
+      top: 31rem;
+      left: -4.6rem;
+      width: 43.7rem;
       /* height: 93.692rem; */
       height: auto;
 
@@ -126,7 +128,10 @@ import ButtonComponent from "@/components/UI/ButtonComponent.vue";
       }
 
       @media screen and (min-width: 90em) {
-        width: 100rem;
+        top: -41.6rem;
+        left: 46.7rem;
+
+        width: 104.1rem;
         transform: translate(10rem, 2rem);
       }
 
